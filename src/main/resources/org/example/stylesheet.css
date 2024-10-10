@@ -20,10 +20,8 @@
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center center;
-    -fx-background-color: #0000FF;
-    -fx-border-radius: 15;
-    -fx-border-color: #D27D2D;
-    -fx-border-width: 5;
+    -fx-background-radius: 15;
+
 }
 
 .exit_button {
