@@ -2,6 +2,7 @@
     -fx-background-color: #7fac51;
     -fx-background-radius: 20;
 }
+
 .login_button {
     -fx-background-color: transparent;
     -fx-border-radius: 15;
@@ -15,15 +16,12 @@
 }
 
 .Inform_panel {
-    -fx-background-image: url("/images/baulog.png");
-    -fx-background-size: cover;
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center center;
+    -fx-background-image: url("images/baulog.png");
+    -fx-background-color: #0000FF;
     -fx-border-radius: 15;
     -fx-border-color: #D27D2D;
     -fx-border-width: 5;
 }
-
 
 .exit_button {
     -fx-background-color: #D27D2D;
@@ -34,7 +32,5 @@
     -fx-border-radius: 15;
     -fx-border-width: 3;
     -fx-border-color: #D27D2D;
-
-
 }
 

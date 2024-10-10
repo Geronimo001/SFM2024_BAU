@@ -30,9 +30,9 @@
             <Font name="Californian FB" size="13.0" />
          </font>
       </TextField>
-      <Pane layoutX="-78.0" layoutY="17.0" prefHeight="458.0" prefWidth="510.0" styleClass="Inform_panel">
+      <Pane layoutX="-3.0" layoutY="17.0" prefHeight="458.0" prefWidth="428.0" styleClass="Inform_panel" AnchorPane.leftAnchor="0.0">
          <children>
-            <Label alignment="CENTER" layoutX="121.0" layoutY="197.0" prefHeight="64.0" prefWidth="305.0" styleClass="description" text="Bringing Animals Upfront" textAlignment="CENTER" textFill="WHITE">
+            <Label alignment="CENTER" layoutX="61.0" layoutY="197.0" prefHeight="64.0" prefWidth="305.0" styleClass="description" text="Bringing Animals Upfront" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Bookman Old Style" size="23.0" />
                </font>
