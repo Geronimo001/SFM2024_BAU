@@ -29,8 +29,6 @@ public class App extends Application {
         clip.setArcHeight(40);
         root.setClip(clip);
 
-
-        //stage.initStyle(StageStyle.UNDECORATED);
         stage.initStyle(StageStyle.TRANSPARENT);
 
         stage.show();
