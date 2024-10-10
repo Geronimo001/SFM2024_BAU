@@ -1,23 +1,24 @@
 .parent {
     -fx-background-color: #7fac51;
+    -fx-background-radius: 20;
 }
 .login_button {
     -fx-background-color: transparent;
-    -fx-border-radius: 15px;
+    -fx-border-radius: 15;
     -fx-border-color: white;
 }
 
 .text_box {
     -fx-background-color: transparent;
-    -fx-border-radius: 15px;
+    -fx-border-radius: 15;
     -fx-border-color: #D27D2D;
 }
 
 .Inform_panel {
     -fx-background-color: transparent;
-    -fx-border-radius: 15px;
+    -fx-border-radius: 15;
     -fx-border-color: #D27D2D;
-    -fx-border-width: 5px;
+    -fx-border-width: 5;
 }
 
 
@@ -26,10 +27,12 @@
 }
 
 .description {
-
-    -fx-background-color: transparent;
-    -fx-border-radius: 15px;
-    -fx-border-width: 3px;
+    -fx-background-image: url("images/baulog.png");
+    -fx-background-size: cover; /* Makes sure the image covers the whole label */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-border-radius: 15;
+    -fx-border-width: 3;
     -fx-border-color: #D27D2D;
 
 

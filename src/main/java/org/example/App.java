@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -18,10 +19,20 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("LoginFXML"), 640, 480);
+        Parent root = loadFXML("LoginFXML");
+        scene = new Scene(root, 640, 480);
         stage.setScene(scene);
+        scene.setFill(Color.TRANSPARENT);
 
-        stage.setTitle("BAU_Animal_Clinic");
+        Rectangle clip = new Rectangle(scene.getWidth(), scene.getHeight());
+        clip.setArcWidth(40); // Rounding corners
+        clip.setArcHeight(40);
+        root.setClip(clip);
+
+
+        //stage.initStyle(StageStyle.UNDECORATED);
+        stage.initStyle(StageStyle.TRANSPARENT);
+
         stage.show();
     }
 
