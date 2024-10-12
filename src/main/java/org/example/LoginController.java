@@ -36,8 +36,6 @@ public class LoginController {
     @FXML
     void login(ActionEvent event) {
 
-        System.out.println("Are you want to login?");
-
     }
 
 }
