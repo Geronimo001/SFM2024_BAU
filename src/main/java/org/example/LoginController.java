@@ -2,9 +2,11 @@ package org.example;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class LoginController {
@@ -35,9 +37,27 @@ public class LoginController {
 
     @FXML
     void login(ActionEvent event) {
+        System.out.println("Login gomb megnyomva!");
 
-        System.out.println("Are you want to login?");
+        try {
+            // Betöltjük a pacients.fxml-t (a páciensek listájának ablakát)
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/pacients.fxml"));
 
+            Parent root = loader.load();
+
+            // Új ablak létrehozása
+            Stage pacientStage = new Stage();
+            pacientStage.setTitle("Páciensek listája");
+            pacientStage.setScene(new Scene(root));
+            pacientStage.show();
+
+            // A jelenlegi (login) ablak bezárása, ha szeretnéd
+            Stage currentStage = (Stage) login_button.getScene().getWindow();
+            currentStage.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
