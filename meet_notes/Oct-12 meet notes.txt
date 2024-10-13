@@ -1,0 +1,51 @@
+1.	BAU Projekt
+
+2.	Csapattagok
+
+3.	Logo kép
+
+4.	Alapkoncepciónk:
+Egy állatorvosi rendelő foglalási szoftverének fejlesztése, ahol időpontot lehet foglalni egy adott napra (Weben), ahol egy adott orvos fog rendelni aznap. 
+
+Ezen kívűl lesz egy külön felhasználókezelő szoftver (JavaFX), ahol külön be lehet lépni orvosként, szoftverfejlesztőként.
+
+Lesz egy adatbázis, amit három tábla fog alkotni, amiben a login, időponthoz fűződő, illetve gyógyszer adatok tartoznak.
+
+
+
+5.	Az adatbázis időpontos táblájának felépítése:
+Időpont
+Állat faja
+Állatok száma
+Kért vizsgálat
+Megjegyzés rovat (tüneteknek főképpen)
+Állattartó neve
+Állattartó e-mail címe
+Állattartó telefonszáma
+
+
+
+6.	Az adatbázis login táblájának felépítése:
+Felhasználónév
+Jelszó
+Jogosultság
+
+
+
+7.	Az adatbázi gyógyszere táblájának felépítése:
+Fajspecifikáció
+Mire használatos
+Gyógyszer neve
+Gyógyszer adagolása
+
+
+8.	Használatos technológiák:
+JavaFX: login, időpontok kezelése az orvosok által
+React: webes felhasználáshoz (html, javascript, css)
+Hibernate: adatbázisokhoz
+
+
+9.	Elkészült login page
+10.	Trello tábla kép
+11.	Github
+12.	Elköszönés
