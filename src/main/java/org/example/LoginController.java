@@ -44,13 +44,13 @@ public class LoginController {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/pacients.fxml"));
 
             Parent root = loader.load();
-
+/*
             // Új ablak létrehozása
             Stage pacientStage = new Stage();
             pacientStage.setTitle("Páciensek listája");
             pacientStage.setScene(new Scene(root));
             pacientStage.show();
-
+*/
             // A jelenlegi (login) ablak bezárása, ha szeretnéd
             Stage currentStage = (Stage) login_button.getScene().getWindow();
             currentStage.close();
