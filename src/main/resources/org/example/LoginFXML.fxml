@@ -10,28 +10,27 @@
 
 <AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="650.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.LoginController">
    <children>
-      <Label layoutX="466.0" layoutY="144.0" prefHeight="22.0" prefWidth="134.0" text="Username/E-mail" textFill="WHITE">
+      <Label layoutX="466.0" layoutY="144.0" prefHeight="22.0" prefWidth="134.0" text="Felhasználónév" textFill="WHITE">
          <font>
             <Font name="Calibri" size="17.0" />
          </font></Label>
-      <TextField fx:id="usernameTextbox" layoutX="460.0" layoutY="167.0" prefHeight="26.0" prefWidth="151.0" styleClass="text_box">
+      <TextField fx:id="username" layoutX="460.0" layoutY="167.0" prefHeight="26.0" prefWidth="151.0" styleClass="text_box">
          <font>
             <Font name="Californian FB" size="13.0" />
          </font>
       </TextField>
-      <Label layoutX="466.0" layoutY="205.0" prefHeight="20.0" prefWidth="112.0" text="Password" textFill="WHITE">
+      <Label layoutX="466.0" layoutY="205.0" prefHeight="20.0" prefWidth="112.0" text="Jelszó" textFill="WHITE">
          <font>
             <Font name="Calibri" size="17.0" />
          </font></Label>
-      <Button fx:id="login_button" layoutX="472.0" layoutY="275.0" mnemonicParsing="false" onAction="#login" prefHeight="33.0" prefWidth="126.0" styleClass="login_button" text="Login" textFill="WHITE" />
-      <Button fx:id="login_button2" layoutX="472.0" layoutY="320.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="126.0" styleClass="login_button" text="Sign Up" textFill="WHITE" />
-      <TextField fx:id="usernameTextbox1" layoutX="460.0" layoutY="227.0" prefHeight="26.0" prefWidth="151.0" styleClass="text_box">
+      <Button fx:id="login_button" layoutX="470.0" layoutY="281.0" mnemonicParsing="false" onAction="#login" prefHeight="33.0" prefWidth="126.0" styleClass="login_button" text="Bejelentkezés" textFill="WHITE" />
+      <TextField fx:id="password" layoutX="460.0" layoutY="227.0" prefHeight="26.0" prefWidth="151.0" styleClass="text_box">
          <font>
             <Font name="Californian FB" size="13.0" />
          </font>
       </TextField>
       <Pane layoutX="-3.0" layoutY="17.0" prefHeight="450.0" prefWidth="450.0" styleClass="Inform_panel" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0" />
-      <Button fx:id="exit_button" layoutX="575.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" prefHeight="29.0" prefWidth="49.0" styleClass="exit_button" text="Exit" />
+      <Button fx:id="exit_button" layoutX="575.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" prefHeight="29.0" prefWidth="60.0" styleClass="exit_button" text="Kilépés" />
    </children>
    <opaqueInsets>
       <Insets />
