@@ -65,6 +65,7 @@ public class LoginController {
             return "";
         }
         return "doctor";
+        //Will expand it
     }
 
 }
