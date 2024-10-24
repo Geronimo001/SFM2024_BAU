@@ -7,17 +7,26 @@ public class Alerts {
     private String header;
     private String message;
 
-    public Alerts(String header, String message) {
-        this.header = header;
-        this.message = message;
+
+    public Alerts() {
+        //empty constructor
     }
 
-    public void showAlert() {
+    public void ErrorAlert(String header, String message) {
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.setTitle("Hiba");
         alert.setHeaderText(header);
         alert.setContentText(message);
         alert.getButtonTypes().setAll(new ButtonType("Bezárás"));
+        alert.showAndWait();
+    }
+
+    public void VisitAlert(String header, String message) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Vizsgálat lezárása");
+        alert.setHeaderText(header);
+        alert.setContentText(message);
+        alert.getButtonTypes().setAll(new ButtonType("Nem jelent meg"), new ButtonType("Gyógyszer felírása"), new ButtonType("Műtét javasolt"));
         alert.showAndWait();
     }
 }

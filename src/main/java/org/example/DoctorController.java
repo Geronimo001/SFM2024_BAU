@@ -3,6 +3,8 @@ package org.example;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
+import java.awt.event.ActionEvent;
+
 public class DoctorController {
     @FXML
     private Label allatFaj;
@@ -24,4 +26,10 @@ public class DoctorController {
 
     @FXML
     private Label telefonszam;
+
+    public void showDoctor(javafx.event.ActionEvent actionEvent) {
+    }
+
+    public void closeVisit(javafx.event.ActionEvent actionEvent) {
+    }
 }

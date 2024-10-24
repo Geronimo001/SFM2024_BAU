@@ -164,13 +164,12 @@
                     <menus>
                         <Menu mnemonicParsing="false" text="Orvos">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="Adatok megváltoztatása" />
-                                <MenuItem mnemonicParsing="false" text="Kijelentkezés" />
+                                <MenuItem mnemonicParsing="false" onAction="#showDoctor" text="Adatok megváltoztatása" />
                             </items>
                         </Menu>
                         <Menu mnemonicParsing="false" text="Vizsgálat">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="Vizsgálat lezárása" />
+                                <MenuItem mnemonicParsing="false" onAction="#closeVisit" text="Vizsgálat lezárása" />
                             </items>
                         </Menu>
                     </menus>
